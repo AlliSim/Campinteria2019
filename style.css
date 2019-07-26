@@ -1,0 +1,177 @@
+#mainPic {
+  width: 680px;
+  z-index:0;
+}
+
+#sorryBud{
+  width: 430px;
+  height: 270px;
+  background: rgba(222, 222, 222, 0.51);
+  position: absolute;
+  text-align: center;
+  color: DarkRed;
+  font-style: bold;
+  top:360px;
+  z-index:900;
+}
+
+#endScreen {
+  height: 0px;
+  width: 890px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  background: red;
+}
+
+/* Covering up the tacky-ness*/
+#num2 {
+  top: 630px;
+}
+#num3{
+  width: 40px;
+  height: 40px;
+  background: #fcfcfc;
+  top: 108px;
+  left: 533px;
+}
+
+/* Found counter's settings */
+#text {
+  position: absolute;
+  font-size: 30px;
+  top: 60px;
+  left: 360px;
+}
+
+/* All red indicator CSS */
+div.meh {
+  position: absolute;
+}
+#div1 {
+  width: 43px;
+  height: 42px;
+  top: 281px;
+  left: 50px;
+}
+#div2 {
+  width: 40px;
+  height: 43px;
+  top: 250px;
+  left: 390px;
+}
+#div3 {
+  width: 40px;
+  height: 48px;
+  top: 263px;
+  left: 155px;
+}
+#div4 {
+  width: 21px;
+  height: 60px;
+  top: 70px;
+  left: 237px;
+}
+#div5 {
+  width: 55px;
+  height: 51px;
+  top: 145px;
+  left: 220px;
+}
+#div6 {
+  width: 37px;
+  height: 48px;
+  top: 210px;
+  left: 182px;
+}
+#div7 {
+  width: 44px;
+  height: 25px;
+  top: 145px;
+  left: 365px;
+}
+#div8 {
+  width: 42px;
+  height: 57px;
+  top: 253px;
+  left: 230px;
+}
+#div9 {
+  width: 32px;
+  height: 33px;
+  top: 203px;
+  left: 312px;
+}
+#div10 {
+  width: 32px;
+  height: 25px;
+  top: 163px;
+  left: 47px;
+}
+
+/* All strike CSS */
+#wrong1 {
+  top: 100px;
+}
+#wrong2 {
+  top: 140px;
+}
+#wrong3 {
+  top: 180px;
+}
+
+/* Class for strike X's */
+.strike {
+  color: transparent;
+  font-size: 35px;
+  position: absolute;
+  left: 454px;
+}
+
+/* Whiteout for a less tacky image :D */
+.whiteOut {
+  background: white;
+  width: 700px;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* Blind to protect the answer */
+#blind {
+  background: white;
+  width: 227px;
+  height: 138px;
+  position: absolute;
+  top: 419px;
+  left: 450px;
+  font-size: 40px;
+  border: 4px solid green;
+  text-align: center;
+}
+
+#button{
+  width: 200px;
+  height: 100px;
+  z-index: 999;
+  background: #f03a3a;
+  position: absolute;
+  top: 523px;
+  left: 341px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+#button:hover {
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.10);
+}
+
+body {
+  font-family: 'Short Stack', cursive;
+}
